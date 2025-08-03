@@ -1,0 +1,37 @@
+name: sesno
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mysql1: ^0.20.0
+  font_awesome_flutter: ^10.7.0
+  cupertino_icons: ^1.0.8
+  cached_network_image: ^3.3.0
+  flutter_lints: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: true
+  windows: true
+  image_path: "assets/images/logo.png"
+  android_icon_size: 192
+  ios_icon_size: 120
+
+flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
